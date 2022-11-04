@@ -2,6 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
+  background-image: url("https://media3.giphy.com/media/FcTdv3xQKhCIE/giphy.gif?cid=ecf05e47n064iv4ske5emmrs0qfet3tprar2zg2rg3ci185s&rid=giphy.gif&ct=g");
+  background-size: contain;
+  background-position: 50%;
+  background-size: 100% auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,14 +18,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
